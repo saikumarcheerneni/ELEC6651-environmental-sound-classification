@@ -1,0 +1,25 @@
+{
+  "knn": {
+    "best_params": {
+      "clf__n_neighbors": 5
+    },
+    "accuracy": 0.454,
+    "confusion_matrix": "results\\confusion_knn.png"
+  },
+  "svm_rbf": {
+    "best_params": {
+      "clf__C": 10,
+      "clf__gamma": "scale"
+    },
+    "accuracy": 0.624,
+    "confusion_matrix": "results\\confusion_svm_rbf.png"
+  },
+  "random_forest": {
+    "best_params": {
+      "clf__max_depth": null,
+      "clf__n_estimators": 200
+    },
+    "accuracy": 0.559,
+    "confusion_matrix": "results\\confusion_random_forest.png"
+  }
+}
