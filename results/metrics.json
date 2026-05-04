@@ -4,7 +4,9 @@
       "clf__n_neighbors": 5
     },
     "accuracy": 0.454,
-    "confusion_matrix": "results\\confusion_knn.png"
+    "confusion_matrix": "results\\confusion_knn.png",
+    "report_csv": "results\\report_knn.csv",
+    "report_txt": "results\\report_knn.txt"
   },
   "svm_rbf": {
     "best_params": {
@@ -12,7 +14,9 @@
       "clf__gamma": "scale"
     },
     "accuracy": 0.624,
-    "confusion_matrix": "results\\confusion_svm_rbf.png"
+    "confusion_matrix": "results\\confusion_svm_rbf.png",
+    "report_csv": "results\\report_svm_rbf.csv",
+    "report_txt": "results\\report_svm_rbf.txt"
   },
   "random_forest": {
     "best_params": {
@@ -20,6 +24,8 @@
       "clf__n_estimators": 200
     },
     "accuracy": 0.559,
-    "confusion_matrix": "results\\confusion_random_forest.png"
+    "confusion_matrix": "results\\confusion_random_forest.png",
+    "report_csv": "results\\report_random_forest.csv",
+    "report_txt": "results\\report_random_forest.txt"
   }
 }
